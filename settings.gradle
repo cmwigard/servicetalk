@@ -58,6 +58,7 @@ include "servicetalk-annotations",
         "servicetalk-examples:http:http2",
         "servicetalk-examples:http:jaxrs",
         "servicetalk-examples:http:metadata",
+        "servicetalk-examples:http:multi-address-client",
         "servicetalk-examples:http:opentracing",
         "servicetalk-examples:http:observer",
         "servicetalk-examples:http:retry",
@@ -126,6 +127,7 @@ project(":servicetalk-examples:http:debugging").name = "servicetalk-examples-htt
 project(":servicetalk-examples:http:timeout").name = "servicetalk-examples-http-timeout"
 project(":servicetalk-examples:http:jaxrs").name = "servicetalk-examples-http-jaxrs"
 project(":servicetalk-examples:http:metadata").name = "servicetalk-examples-http-metadata"
+project(":servicetalk-examples:http:multi-address-client").name = "servicetalk-examples-http-multi-address-client"
 project(":servicetalk-examples:http:opentracing").name = "servicetalk-examples-http-opentracing"
 project(":servicetalk-examples:http:observer").name = "servicetalk-examples-http-observer"
 project(":servicetalk-examples:http:retry").name = "servicetalk-examples-http-retry"
